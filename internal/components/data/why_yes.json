@@ -1,0 +1,47 @@
+{
+    "style": "/css/components/why_yes.css",
+    "script": "",
+    "data": {
+        "0": {
+            "heading": "Почему мне можно доверять?",
+            "list": [
+                { 
+                    "heading": "Практика",
+                    "paragraph": "Более 20 лет успешной юридической практики",
+                    "img": "/img/icons/practice.svg",
+                    "img_alt": "practice"
+                },
+                { 
+                    "heading": "Образование",
+                    "paragraph": "Полное высшее образование юриста и адвоката",
+                    "img": "/img/icons/education.svg",
+                    "img_alt": "education"
+                },
+                { 
+                    "heading": "Контроль",
+                    "paragraph": "Уведомляю Вас после  каждого процессуального действия",
+                    "img": "/img/icons/control.svg",
+                    "img_alt": "control"
+                },
+                { 
+                    "heading": "Цена",
+                    "paragraph": "Цена не меняется в ходе судебного разбирательства",
+                    "img": "/img/icons/price.svg",
+                    "img_alt": "price"
+                },
+                { 
+                    "heading": "Дела",
+                    "paragraph": "Более 95% выигранных дел",
+                    "img": "/img/icons/case.svg",
+                    "img_alt": "case"
+                },
+                { 
+                    "heading": "Выиграно",
+                    "paragraph": "Более 148 млн. рублей сохранено клиентами",
+                    "img": "/img/icons/win.svg",
+                    "img_alt": "win"
+                }
+            ]
+        }
+    }
+}

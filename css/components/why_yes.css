@@ -1,0 +1,27 @@
+section.why_yes>ul {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+section.why_yes>ul>li {
+    background-color: var(--black-newans-color);
+    border-radius: var(--border-radius);
+    padding: 45px 75px;
+}
+
+section.why_yes>ul>li>h3 {
+    background-repeat: no-repeat; /* Предотвратить повторение изображения */
+    background-position: left center; /* Расположение изображения слева по центру по вертикали */
+    background-size: contain;
+    padding-left: 30px; /* Отступ для текста, чтобы он не перекрывал изображение */
+    display: inline-block; /* Чтобы элемент мог учитывать padding */
+    line-height: 1.5; /* Настройка высоты строки для вертикального центрирования текста */
+    padding-left: 40px;
+}
+
+section.why_yes>ul>li>p {
+    margin-top: 20px;
+    font-size: var(--small-font-size);
+}

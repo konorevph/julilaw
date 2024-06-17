@@ -1,0 +1,28 @@
+@import url("/css/reset.css");
+@import url("/css/ui-kit.css");
+@import url("/css/components/header.css");
+@import url("/css/components/footer.css");
+
+:root {
+    --black-color: #111E2F;
+    --black-newans-color: #1f2c3d;
+    --white-color: #F5F9FE;
+    --extra-color: #D6A67B;
+
+    --padding-components: 150px;
+    --margin-top-components: 120px;
+    
+    --border-radius: 40px;
+}
+
+body {
+    background-color: var(--black-color);
+}
+
+main>section {
+    padding: 0 var(--padding-components);
+}
+
+main>section:not(:first-child) {
+    margin-top: var(--margin-top-components);
+}

@@ -1,0 +1,42 @@
+{
+    "style": "",
+    "script": "",
+    "data": {
+        "0": {
+            "title": "Главная",
+            "current_uri": "/",
+            "links": [
+                {
+                    "text": "Главная",
+                    "href": "/",
+                    "style": ""
+                },
+                {
+                    "text": "Форма",
+                    "href": "/form/",
+                    "style": ""
+                },
+                {
+                    "text": "Услуги",
+                    "href": "/services/",
+                    "style": ""
+                },
+                {
+                    "text": "Цены",
+                    "href": "/prices/",
+                    "style": ""
+                },
+                {
+                    "text": "Отзывы",
+                    "href": "/reviews/",
+                    "style": ""
+                },
+                {
+                    "text": "Связаться",
+                    "href": "/form/",
+                    "style": "border"
+                }
+            ]
+        }
+    }
+}

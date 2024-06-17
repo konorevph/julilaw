@@ -1,0 +1,25 @@
+a {
+    display: inline-block;
+}
+
+a.fill, a.border {
+    padding: 16px 36px;
+    border-radius: var(--border-radius);
+}
+
+a.fill {
+    background-color: var(--extra-color);
+    color: var(--black-color)
+}
+
+a.border {
+    border: 1px solid var(--extra-color);
+}
+
+a.active {
+    user-select: none;
+}
+
+a:not(.border):not(.fill).active {
+    color: var(--extra-color);
+}

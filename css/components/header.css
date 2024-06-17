@@ -1,0 +1,27 @@
+body>header {
+    width: 100%;
+    height: 100px;
+    padding: 0 var(--padding-components);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body>header>a>img {
+    margin-right: 24px;
+}
+
+body>header>nav>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+body>header>nav>ul>li>a {
+    height: 100%;
+}
+
+body>header>button {
+    display: none;
+}

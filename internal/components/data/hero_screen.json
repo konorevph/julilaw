@@ -1,0 +1,20 @@
+{
+    "style": "/css/components/hero_screen.css",
+    "script": "",
+    "data": {
+        "0": {
+            "title": "АДВОКАТ<br>Голубкова Юлия",
+            "paragraph": "Квалифицированная помощь<br>в любых правовых вопросах",
+            "link_text": "Записаться на консультацию",
+            "link_href": "/forms/",
+            "img_src": {
+                "jpg": {
+                    "1x": "/img/hero_screen_1x.jpg",
+                    "2x": "/img/hero_screen_2x.jpg",
+                    "3x": "/img/hero_screen_3x.jpg"
+                }
+            },
+            "img_alt": "person"
+        }
+    }
+}

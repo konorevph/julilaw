@@ -1,0 +1,21 @@
+section.hero_screen {
+    padding: 160px var(--padding-components) 234px var(--padding-components);
+    position: relative;
+    box-sizing: border-box;
+}
+
+section.hero_screen>p {
+    margin-top: 20px;
+}
+
+section.hero_screen>a {
+    margin-top: 80px;
+}
+
+section.hero_screen>figure>picture>img {
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: var(--padding-components);
+    border-radius: var(--border-radius);
+}

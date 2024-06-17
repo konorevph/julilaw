@@ -1,0 +1,37 @@
+{
+    "/": {
+        "title": "Главная",
+        "components": [
+            {
+                "id": 0,
+                "name": "hero_screen"
+            },
+            {
+                "id": 0,
+                "name": "block_text"    
+            },
+            {
+                "id": 0,
+                "name": "why_yes"
+            }
+        ]
+    },
+    "/form/": {
+        "title": "Запись к адвокату",
+        "components": [
+            {
+                "id": 1,
+                "name": "block_text"
+            }
+        ]
+    },
+    "/404/": {
+        "title": "Страница не найдена",
+        "components": [
+            {
+                "id": 0,
+                "name": "404"
+            }
+        ]
+    }
+}
