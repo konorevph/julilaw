@@ -32,14 +32,6 @@ echo Component::parseTemplate("header", $data);
 foreach ($page_data['components'] as $component) {
     $data = Component::getData($component["name"], $component["id"]);
     if ($data === null) $data = array();
-
-    if ($component["name"] === "header") { 
-        $data["styles"] = $styles;
-        $data["title"] = $page_data["title"];
-        $data["current_uri"] = $_SERVER['REQUEST_URI'];
-    }
-    if ($component["name"] === "footer") $data["scritps"] = $scripts;
-
     echo Component::parseTemplate($component["name"], $data);
 }
 

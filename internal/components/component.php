@@ -19,7 +19,8 @@ class Component {
     public static function getData(string $name, int $id): array | null
     {
         if (!file_exists(getenv("ROOTPATH") . self::$dataPath . "$name.json")) return null;
-        return json_decode(file_get_contents(getenv("ROOTPATH") . self::$dataPath . "$name.json"), true)["data"][$id];
+        $json = json_decode(file_get_contents(getenv("ROOTPATH") . self::$dataPath . "$name.json"), true);
+        return isset($json["data"]) && isset($json["data"][$id]) ? $json["data"][$id] : null;
     }
 
     public static function parseTemplate(string $name, array $data): string {
