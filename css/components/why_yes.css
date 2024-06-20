@@ -15,9 +15,9 @@ section.why_yes>ul>li>h3 {
     background-repeat: no-repeat; /* Предотвратить повторение изображения */
     background-position: left center; /* Расположение изображения слева по центру по вертикали */
     background-size: contain;
-    padding-left: 30px; /* Отступ для текста, чтобы он не перекрывал изображение */
+    padding-right: 24px; /* Отступ для текста, чтобы он не перекрывал изображение */
     display: inline-block; /* Чтобы элемент мог учитывать padding */
-    line-height: 1.5; /* Настройка высоты строки для вертикального центрирования текста */
+    line-height: 40px; /* Настройка высоты строки для вертикального центрирования текста */
     padding-left: 40px;
 }
 

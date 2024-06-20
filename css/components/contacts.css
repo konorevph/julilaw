@@ -1,0 +1,31 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.map {
+    overflow: hidden; /* Скрываем переполнение */
+    border-radius: var(--border-radius);
+    
+    filter: sepia(20%) brightness(80%);
+}
+
+.container h4,
+.container h3 {
+    background-repeat: no-repeat; /* Предотвратить повторение изображения */
+    background-position: left center; /* Расположение изображения слева по центру по вертикали */
+    background-size: contain;
+    line-height: 24px; /* Настройка высоты строки для вертикального центрирования текста */
+    padding-left: 48px;
+}
+
+.container h4 {
+    margin-bottom: 20px;
+}

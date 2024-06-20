@@ -13,6 +13,10 @@
             {
                 "id": 0,
                 "name": "why_yes"
+            },
+            {
+                "id": 0,
+                "name": "contacts"
             }
         ]
     },
@@ -31,6 +35,15 @@
             {
                 "id": 0,
                 "name": "404"
+            }
+        ]
+    },
+    "/prices/": {
+        "title": "Цены",
+        "components": [
+            {
+                "id": 0,
+                "name": "prices_fiz"
             }
         ]
     }
