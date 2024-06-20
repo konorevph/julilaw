@@ -1,0 +1,19 @@
+.prices>ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.prices>ul>li {
+    padding: 40px 77px;
+    border-bottom: 0.5px solid white;
+}
+
+.prices>h3 {
+    font-size: 30px;
+}
+
+.prices>ul>li>span {
+    display: inline-block;
+    width: 793px;
+}
