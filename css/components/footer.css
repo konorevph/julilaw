@@ -1,0 +1,40 @@
+body>footer {
+    height: 100px;
+    margin: 0 var(--padding-components);
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--white-color);
+}
+
+body>footer>a>img {
+    margin-right: 24px;
+}
+
+body>footer>nav>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+body>footer>nav>ul>li>a {
+    height: 100%;
+}
+
+body>footer>button {
+    display: none;
+}
+
+
+@media screen and (width < 1000px) {
+
+    body>footer>button {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+
+}

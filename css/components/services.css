@@ -9,6 +9,7 @@
     align-items: center;
     font-size: 18px;
     gap: 24px;
+    margin-left: 77px;
 }
 
 .service>h3 {
@@ -19,8 +20,12 @@
     display: none;
 }
 
+.text>p {
+    margin-left: 129px;
+}
+
 .text>ul {
-    margin-left: 52px;
+    margin-left: 129px;
 }
 
 .text>ul>li {
@@ -37,6 +42,7 @@
     transform: rotate(180deg);
 }
 
-.text>ul:not(:first-child) {
-    margin-top: 20px;
+.text>a {
+    margin-top: 24px;
+    margin-left: 129px;
 }

@@ -11,14 +11,14 @@ section.why_yes>ul>li {
     padding: 45px 75px;
 }
 
-section.why_yes>ul>li>h3 {
+section.why_yes>ul>li>h4 {
     background-repeat: no-repeat; /* Предотвратить повторение изображения */
     background-position: left center; /* Расположение изображения слева по центру по вертикали */
     background-size: contain;
     padding-right: 24px; /* Отступ для текста, чтобы он не перекрывал изображение */
     display: inline-block; /* Чтобы элемент мог учитывать padding */
     line-height: 40px; /* Настройка высоты строки для вертикального центрирования текста */
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 section.why_yes>ul>li>p {
