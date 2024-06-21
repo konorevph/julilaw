@@ -1,10 +1,11 @@
 section.block_text>ul,
 section.block_text>ol {
-    padding-left: 0;
+    padding-left: 20px;
     list-style-position: inside;
 }
 
-section.block_text>ul {
+section.block_text>ul,
+section.block_text>ul>li {
     list-style-type: disc; /* Маркеры в виде точек */
 }
 

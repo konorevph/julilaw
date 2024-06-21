@@ -71,5 +71,174 @@
                 "name": "reviews"
             }
         ]
+    },
+    "/services/service2/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 2,
+                "name": "block_text"
+            },
+            {
+                "id": 2,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service3/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 3,
+                "name": "block_text"
+            },
+            {
+                "id": 3,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service4/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 4,
+                "name": "block_text"
+            },
+            {
+                "id": 4,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service5/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 5,
+                "name": "block_text"
+            },
+            {
+                "id": 5,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service6/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 6,
+                "name": "block_text"
+            },
+            {
+                "id": 6,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service7/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 7,
+                "name": "block_text"
+            },
+            {
+                "id": 7,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service8/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 8,
+                "name": "block_text"
+            },
+            {
+                "id": 8,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service9/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 9,
+                "name": "block_text"
+            },
+            {
+                "id": 9,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service10/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 10,
+                "name": "block_text"
+            },
+            {
+                "id": 10,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service11/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 11,
+                "name": "block_text"
+            },
+            {
+                "id": 11,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service12/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 12,
+                "name": "block_text"
+            },
+            {
+                "id": 12,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service13/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 13,
+                "name": "block_text"
+            },
+            {
+                "id": 13,
+                "name": "prices"
+            }
+        ]
+    },
+    "/services/service14/": {
+        "title": "Подробнее об услуге",
+        "components": [
+            {
+                "id": 14,
+                "name": "block_text"
+            },
+            {
+                "id": 14,
+                "name": "prices"
+            }
+        ]
     }
 }
