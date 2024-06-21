@@ -46,3 +46,39 @@
     margin-top: 24px;
     margin-left: 129px;
 }
+
+
+
+@media screen and (width < 1000px) {
+    .contacts > ul > li > h4,
+    .contacts > ul > li > a {
+        font-size: 24px;
+    }
+
+    .service {
+        margin-left: 24px;
+    }
+
+    .text>ul,
+    .text>p,
+    .text>a {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (width < 370px) {
+    .contacts > ul > li > h4,
+    .contacts > ul > li > a {
+        font-size: 16px;
+    }
+
+    .service {
+        margin-left: 16px;
+    }
+    
+    .text>ul,
+    .text>p,
+    .text>a {
+        margin-left: 16px;
+    }
+}
