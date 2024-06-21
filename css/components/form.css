@@ -25,7 +25,7 @@ form input:hover {
     border-color: var(--white-color);
 }
 
-form input:read-only {
+form .selector-input {
     cursor: pointer;
 }
 
