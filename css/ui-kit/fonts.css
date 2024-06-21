@@ -2,6 +2,7 @@
 
 :root {
     --large-font-size: 40px;
+    --big-font-size: 30px;
     --medium-font-size: 20px;
     --small-font-size: 18px;
 }
@@ -27,6 +28,7 @@ h2 {
 }
 
 h3 {
+    font-size: var(--big-font-size);
     font-weight: 800;
     font-size: 30px;
 }

@@ -1,0 +1,70 @@
+form {
+    position: relative;
+    padding: 30px 76px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--black-newans-color);
+    border-radius: var(--border-radius);
+    margin-left: var(--padding-components);
+    margin-right: var(--padding-components);
+}
+
+form input {
+    position: relative;
+    height: 60px;
+    padding: 0 40px;
+    background-color: var(--black-medium-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--black-medium-color);
+    transition: border-color 0.2s ease-out;
+}
+
+form input:hover {
+    border-color: var(--white-color);
+}
+
+form .selector-input {
+    cursor: pointer;
+}
+
+form .selector-input {
+    background-image: url("/img/icons/more.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 40px) center;
+}
+
+form .selector-input.active {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border-color: var(--white-color);
+}
+
+form .selector-options {
+    margin: 0;
+    position: absolute;
+    width: calc(100% - 2*76px);
+    background-color: var(--black-medium-color);
+    border-bottom: 1px solid var(--white-color);
+    border-left: 1px solid var(--white-color);
+    border-right: 1px solid var(--white-color);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+
+    z-index: 10;
+}
+
+form .selector-options .option {
+    text-align: left;
+    padding: 10px 40px;
+    color: var(--white-opasity-60-color);
+    cursor: pointer;
+}
+
+form .selector-options .option:hover {
+    color: var(--white-color);
+}

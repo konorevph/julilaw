@@ -6,7 +6,9 @@
 :root {
     --black-color: #111E2F;
     --black-newans-color: #1f2c3d;
+    --black-medium-color: #2a3749;
     --white-color: #F5F9FE;
+    --white-opasity-60-color: #f6f9fe99;
     --extra-color: #D6A67B;
 
     --padding-components: 150px;
