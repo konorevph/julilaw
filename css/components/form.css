@@ -1,7 +1,6 @@
 form {
     position: relative;
     padding: 30px 76px;
-    display: flex;
     gap: 20px;
     flex-direction: column;
     text-align: center;
@@ -11,7 +10,10 @@ form {
     margin-right: var(--padding-components);
 }
 
-form input {
+form>input {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
     position: relative;
     height: 60px;
     padding: 0 40px;
@@ -21,22 +23,30 @@ form input {
     transition: border-color 0.2s ease-out;
 }
 
+form > button {
+    width: 100%;
+    margin-top: 20px;
+}
+
 form input:hover {
     border-color: var(--white-color);
 }
 
-form .selector-input {
+form .selector-input,
+form .calendar-input {
     cursor: pointer;
-}
-
-form .selector-input {
-    background-image: url("/img/icons/more.svg");
     background-repeat: no-repeat;
     background-position: calc(100% - 40px) center;
 }
 
-form .selector-input.active {
+form .selector-input {
+    background-image: url("/img/icons/more.svg");
+}
+
+form .selector-input.active,
+form .calendar-input.active {
     border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border-bottom-width: 0;
     border-color: var(--white-color);
 }
 
@@ -67,4 +77,109 @@ form .selector-options .option {
 
 form .selector-options .option:hover {
     color: var(--white-color);
+}
+
+/* Календарь */
+
+.calendar-container {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    background-color: var(--black-medium-color);
+    border-bottom: 1px solid var(--white-color);
+    border-left: 1px solid var(--white-color);
+    border-right: 1px solid var(--white-color);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    padding: 20px;
+    z-index: 100;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-input {
+    background-image: url("/img/icons/calendar.svg");
+}
+
+.calendar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    background-color: var(--black-newans-color);
+    border-radius: var(--border-radius);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--extra-color);
+    color: var(--black-color);
+    width: 100%;
+    padding: 16px 25px;
+}
+
+.calendar-header span {
+    color: var(--black-color);
+}
+
+.calendar-body {
+    padding: 25px 25px 25px 25px;
+}
+
+.weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekdays span, .days span {
+    cursor: pointer;
+    user-select: none;
+    width: 14.28%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.time-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.calendar-body>.days>span {
+    border-radius: 15px;
+}
+
+.calendar-body>.days>span.active {
+    background-color: var(--extra-color);
+    color: var(--black-color);
+}
+
+.time-options {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.time-options>li>label {
+    display: block;
+}
+
+.apply-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--white-color);
+    color: var(--black-newans-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label:has(input[type=radio]:checked) {
+    color: var(--extra-color);
 }
