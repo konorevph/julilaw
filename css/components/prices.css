@@ -26,10 +26,10 @@
 
 @media screen and (width < 768px) {
     .prices > ul > li {
-        padding: 15px 5px;
+        padding: 16px 4px;
     }
 
     .prices > ul > li > span {
-        width: 55%;
+        width: 50%;
     }
 }
