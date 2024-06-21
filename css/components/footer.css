@@ -8,6 +8,10 @@ footer {
     border-top: 1px solid var(--white-color);
 }
 
+.extra {
+    margin-left: 6px;
+}
+
 footer a {
     display: flex;
     align-items: center;
