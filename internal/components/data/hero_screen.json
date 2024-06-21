@@ -6,7 +6,7 @@
             "title": "АДВОКАТ<br>Голубкова Юлия",
             "paragraph": "Квалифицированная помощь<br>в любых правовых вопросах",
             "link_text": "Записаться на консультацию",
-            "link_href": "/forms/",
+            "link_href": "/form/",
             "img_src": {
                 "jpg": {
                     "1x": "/img/hero_screen_1x.jpg",

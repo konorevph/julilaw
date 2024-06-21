@@ -36,6 +36,9 @@ foreach ($page_data['components'] as $component) {
 }
 
 // footer
+
+$scripts[] = "/scripts/header.js";
+
 $data = Component::getData("footer", 0);
 $data2 = Component::getData("header", 0);
 $data['links'] = $data2['links'];

@@ -1,4 +1,4 @@
-header {
+body>header {
     width: 100%;
     height: 100px;
     padding: 0 var(--padding-components);
@@ -7,18 +7,18 @@ header {
     justify-content: space-between;
 }
 
-header a {
+body>header a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: inherit;
 }
 
-header a img {
+body>header a img {
     margin-right: 24px;
 }
 
-header nav ul {
+body>header nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,26 +28,23 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+body>header nav ul li a {
     height: 100%;
     text-decoration: none;
     color: inherit;
 }
 
-header button {
+body>header button {
     display: none;
     background: none;
     border: none;
     cursor: pointer;
 }
 
-header button img {
+body>header button img {
     width: 24px;
     height: 24px;
 }
-
-
-
 
 @media screen and (width < 1300px) {
     .extra {
@@ -56,11 +53,27 @@ header button img {
 }
 
 @media screen and (width < 1200px) {
-    header nav {
-        display: none; /* Убираю меню */
+    body>header.opened {
+        background-color: var(--black-medium-color);
     }
 
-    header button {
+    body>header nav {
+        background-color: var(--black-medium-color);
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        width: 100%;
+        top: 100px;
+        display: none; /* Убираю меню */
+        padding-bottom: 40px;
+    }
+
+    body>header button {
         display: block;
+    }
+
+    body>header>nav>ul {
+        display: flex;
+        flex-direction: column;
     }
 }
