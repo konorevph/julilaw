@@ -30,6 +30,11 @@ h2 {
 h3 {
     font-size: var(--big-font-size);
     font-weight: 800;
+    font-size: 30px;
+}
+
+h4 {
+    font-weight: 800;
 }
 
 p.bold {
@@ -47,6 +52,10 @@ a.bold {
 
 p:not(:first-child), ul:not(:first-child), ol:not(:first-child) {
     margin-top: 40px;
+}
+
+strong {
+    font-weight: 800;
 }
 
 .left {

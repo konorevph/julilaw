@@ -47,7 +47,15 @@
         "components": [
             {
                 "id": 0,
-                "name": "prices_fiz"
+                "name": "h1"
+            },
+            {
+                "id": 0,
+                "name": "prices"
+            },
+            {
+                "id": 1,
+                "name": "prices"
             }
         ]
     }
