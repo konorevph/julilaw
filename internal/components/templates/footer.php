@@ -1,11 +1,11 @@
     </main>
     <footer>
-    <a href="/">
+        <a href="/">
             <img src="/img/icons/logo.svg" alt="logo">
             <span>Адвокат</span>
             <span class="extra">Голубкова Юлия</span>
         </a>
-        <button>
+        <button onclick="toggleMenu()">
             <img src="/img/icons/list.svg" alt="menu">
         </button>
         <nav>
@@ -24,5 +24,15 @@
     <?php foreach($scripts as $script): ?>
         <script src="<?= $script ?>"></script>
     <?php endforeach; ?>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('footer nav ul');
+            if (nav.style.display === "flex" || nav.style.display === "") {
+                nav.style.display = "none";
+            } else {
+                nav.style.display = "flex";
+            }
+        }
+    </script>
 </body>
 </html>

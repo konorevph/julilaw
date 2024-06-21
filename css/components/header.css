@@ -1,4 +1,4 @@
-body>header {
+header {
     width: 100%;
     height: 100px;
     padding: 0 var(--padding-components);
@@ -7,21 +7,60 @@ body>header {
     justify-content: space-between;
 }
 
-body>header>a>img {
+header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+header a img {
     margin-right: 24px;
 }
 
-body>header>nav>ul {
+header nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-body>header>nav>ul>li>a {
+header nav ul li a {
     height: 100%;
+    text-decoration: none;
+    color: inherit;
 }
 
-body>header>button {
+header button {
     display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header button img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+@media screen and (width < 1300px) {
+    .extra {
+        display: none; /* Уменьшаю надпись */
+    }
+}
+
+@media screen and (width < 1200px) {
+    header nav {
+        display: none; /* Убираю меню */
+    }
+
+    header button {
+        display: block;
+    }
 }

@@ -1,3 +1,7 @@
+.prices {
+    width: auto;
+}
+
 .prices>ul {
     display: flex;
     flex-direction: column;
@@ -16,4 +20,16 @@
 .prices>ul>li>span {
     display: inline-block;
     width: 793px;
+}
+
+
+
+@media screen and (width < 768px) {
+    .prices > ul > li {
+        padding: 15px 5px;
+    }
+
+    .prices > ul > li > span {
+        width: 55%;
+    }
 }

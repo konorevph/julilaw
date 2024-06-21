@@ -70,3 +70,17 @@ strong {
 .right {
     text-align: right;
 }
+
+
+
+
+@media screen and (width < 370px) {
+    :root {
+        --large-font-size: 30px;
+    }
+
+    h1 {
+        line-height: 28px;
+        width: 100%;
+    }
+}

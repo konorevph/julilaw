@@ -19,7 +19,7 @@
             <span>Адвокат</span>
             <span class="extra">Голубкова Юлия</span>
         </a>
-        <button>
+        <button onclick="toggleMenu()">
             <img src="/img/icons/list.svg" alt="menu">
         </button>
         <nav>
@@ -36,3 +36,15 @@
         </nav>
     </header>
     <main>
+
+    <script src="<?= $script ?>"></script>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('header nav ul');
+                    if (nav.style.display === "flex" || nav.style.display === "") {
+                        nav.style.display = "none";
+                    } else {
+                        nav.style.display = "flex";
+                    }
+                }
+            </script>
