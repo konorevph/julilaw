@@ -27,3 +27,18 @@
 .orange {
     color: #D6A67B;
 }
+
+
+
+@media screen and (width < 370px) {
+    .reviews {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .reviews > p {
+        font-size: 14px;
+        margin-top: 0;
+        line-height: 24px;
+    }
+}
