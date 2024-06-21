@@ -1,6 +1,5 @@
 <section class="contacts">
     <h2 class="center"><?= $heading ?></h2>
-
     <div class="container">
         <div class="map">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A76b99bc569732b12bc514d7c0cba71f3c275d7c4d0d1824160873ac2184c9816&amp;width=677&amp;height=436&amp;lang=ru_RU&amp;scroll=true"></script>
@@ -14,8 +13,4 @@
             <li><a href="/form/" class="border">Записаться на консультацию</a></li>
         </ul>
     </div>
-        
-    
-
-    
 </section>

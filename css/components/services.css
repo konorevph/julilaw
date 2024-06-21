@@ -1,0 +1,42 @@
+.services>h3 {
+    margin-bottom: 40px;
+}
+
+.service {
+    padding: 24px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 24px;
+}
+
+.service>h3 {
+    font-size: 20px;
+}
+
+.text {
+    display: none;
+}
+
+.text>ul {
+    margin-left: 52px;
+}
+
+.text>ul>li {
+    font-size: 18px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.text>ul:not(:first-child) {
+    margin-top: 20px;
+}

@@ -59,6 +59,24 @@
             }
         ]
     },
+    "/services/": {
+        "title": "Услуги",
+        "components": [
+            {
+                "id": 2,
+                "name": "h1"
+            },
+            {
+                "id": 0,
+                "name": "services"
+            },
+            {
+                "id": 1,
+                "name": "services"
+            }
+            
+        ]
+    },
     "/reviews/": {
         "title": "Отзывы",
         "components": [

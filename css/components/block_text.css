@@ -7,6 +7,9 @@ section.block_text>ol {
 section.block_text>ul,
 section.block_text>ul>li {
     list-style-type: disc; /* Маркеры в виде точек */
+    font-size: var(--small-font-size);
+    padding-left: 4px;
+    list-style-position: inside;
 }
 
 section.block_text>ol {
