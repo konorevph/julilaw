@@ -33,6 +33,7 @@ h3 {
 
 h4 {
     font-weight: 800;
+    font-size: var(--small-font-size);
 }
 
 p.bold {
