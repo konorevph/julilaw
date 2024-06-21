@@ -46,6 +46,7 @@ form .selector-input {
 form .selector-input.active,
 form .calendar-input.active {
     border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border-bottom-width: 0;
     border-color: var(--white-color);
 }
 
@@ -132,6 +133,8 @@ form .selector-options .option:hover {
 }
 
 .weekdays span, .days span {
+    cursor: pointer;
+    user-select: none;
     width: 14.28%;
     text-align: center;
     margin: 5px 0;
