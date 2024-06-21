@@ -35,12 +35,12 @@ form input:hover {
 form .selector-input,
 form .calendar-input {
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 40px) center;
 }
 
 form .selector-input {
     background-image: url("/img/icons/more.svg");
-    background-repeat: no-repeat;
-    background-position: calc(100% - 40px) center;
 }
 
 form .selector-input.active,
@@ -93,6 +93,10 @@ form .selector-options .option:hover {
     padding: 20px;
     z-index: 100;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-input {
+    background-image: url("/img/icons/calendar.svg");
 }
 
 .calendar {
