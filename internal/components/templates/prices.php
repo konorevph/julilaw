@@ -5,5 +5,4 @@
             <li><span><?= $item["service"] ?></span><?= $item["price"] ?></li>
         <?php endforeach; ?>
     </ul>
-
 </section>

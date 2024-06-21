@@ -58,5 +58,18 @@
                 "name": "prices"
             }
         ]
+    },
+    "/reviews/": {
+        "title": "Отзывы",
+        "components": [
+            {
+                "id": 1,
+                "name": "h1"
+            },
+            {
+                "id": 0,
+                "name": "reviews"
+            }
+        ]
     }
 }

@@ -1,0 +1,29 @@
+.reviews { 
+    padding-bottom: 0;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+.reviews>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reviews>div:not(:first-child) {
+    margin-top: 90px;
+}
+
+.reviews>div>ul {
+    display: flex;
+    gap: 4px;
+    margin: 0;
+}
+
+.reviews>p {
+    margin-top: 8px;
+}
+
+.orange {
+    color: #D6A67B;
+}
