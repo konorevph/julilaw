@@ -1,0 +1,43 @@
+{
+    "style": "/css/components/form.css",
+    "script": "/scripts/form.js",
+    "data": {
+        "0": {
+            "title": "Форма",
+            "fields": [
+                {
+                    "name": "theme",
+                    "type": "selector",
+                    "placeholder": "Тема формы",
+                    "values": [
+                        "Административные дела (физ)",
+                        "Административные дела (юр)"
+                    ],
+                    "required": true
+                },
+                {
+                    "name": "fromat",
+                    "type": "selector",
+                    "placeholder": "Формат консультации",
+                    "values": [
+                        "Очный формат",
+                        "Дистанционный формат"
+                    ],
+                    "required": true
+                },
+                {
+                    "name": "date",
+                    "type": "datetime",
+                    "placeholder": "Выберите удобное для Вас время",
+                    "required": true
+                },
+                {
+                    "name": "name",
+                    "type": "text",
+                    "placeholder": "Имя Фамилия",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

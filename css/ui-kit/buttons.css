@@ -1,0 +1,9 @@
+button.fill, button.border {
+    padding: 16px 36px;
+    border-radius: var(--border-radius);
+}
+
+button.fill {
+    background-color: var(--extra-color);
+    color: var(--black-color)
+}

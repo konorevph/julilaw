@@ -37,5 +37,5 @@ foreach ($page_data['components'] as $component) {
 
 // footer
 $data = Component::getData("footer", 0);
-$data["scritps"] = $scripts;
+$data["scripts"] = $scripts;
 echo Component::parseTemplate("footer", $data);
