@@ -25,3 +25,36 @@ section.why_yes>ul>li>p {
     margin-top: 20px;
     font-size: var(--small-font-size);
 }
+
+
+
+@media (max-width: 1100px) {
+    section.why_yes>ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.why_yes>ul {
+        grid-template-columns: 1fr;
+    }
+    section.why_yes>ul>li {
+        padding: 20px 30px;
+    }
+    section.why_yes>ul>li>h4 {
+        padding-left: 30px;
+        line-height: 24px;
+        padding-left: 40px;
+    }
+    section.why_yes>ul>li>p {
+        margin-top: 10px;
+        font-size: 16px
+    }
+}
+
+@media (max-width: 600px) {
+    section.why_yes {
+        display: none;
+    }
+}
