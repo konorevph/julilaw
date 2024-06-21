@@ -29,3 +29,26 @@
 .container h4 {
     margin-bottom: 20px;
 }
+
+
+
+@media screen and (width < 1260px) {
+    .container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .container ul li h4 {
+        padding-left: 44px;
+    }
+}
+
+@media screen and (width < 670px) {
+    .map {
+        display: none; /* Скрываем карту */
+    }
+
+    .container ul li:last-child {
+        display: none; /* Скрываем кнопку */
+    }
+}
