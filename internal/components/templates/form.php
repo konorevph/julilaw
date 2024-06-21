@@ -106,4 +106,9 @@
         endswitch;
     endforeach; ?>
     <button class="fill bold" type="submit">Отправить</button>
+    <div style="display: none" class="success">
+        <img src="/img/icons/success.svg" alt="success">
+        <h3>Ваша форма успешно отправлена!</h3>
+        <p>Адвокат свяжется с вами в ближайшее время для уточнения деталей</p>
+    </div>
 </form>

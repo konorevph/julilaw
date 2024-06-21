@@ -148,4 +148,11 @@ document.addEventListener("DOMContentLoaded", function () {
         _calendarContainer.style.display = 'none';
         _calendarInput.classList.remove("active");
     });
+
+    document.querySelectorAll("form").forEach(form => {
+        form.addEventListener("submit", event => {
+            event.preventDefault();
+            form.querySelector(".success").style.display = 'block';
+        });
+    });
 });

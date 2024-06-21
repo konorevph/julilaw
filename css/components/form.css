@@ -8,6 +8,7 @@ form {
     border-radius: var(--border-radius);
     margin-left: var(--padding-components);
     margin-right: var(--padding-components);
+    overflow: hidden;
 }
 
 form>input {
@@ -189,6 +190,31 @@ input[type=radio] {
 label:has(input[type=radio]:checked) {
     color: var(--extra-color);
 }
+
+form>.success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-color);
+}
+
+form>.success>img {
+    width: 300px;
+    margin-bottom: 32px;
+}
+
+
+form>.success>h3 {
+    margin-bottom: 6px;
+    color: #089F20;
+}
+
+form>.success>p {
+    margin: 0;
+}
+
 
 
 @media screen and (width < 600px) {
