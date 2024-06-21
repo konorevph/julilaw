@@ -36,6 +36,12 @@ section.hero_screen>figure>picture>img {
         background: linear-gradient(to top, var(--black-color), rgba(0,0,0,0));
         padding-top: auto;
         padding-bottom: 0 !important;
+        
+    }
+
+
+    section.hero_screen>a {
+        margin-top: 40px;
     }
 
 

@@ -98,7 +98,7 @@
                                     </label>
                                 </li>
                             </ul>
-                            <button class="apply-btn fill" type="button">Принять</button>
+                            <button class="apply-btn fill" type="button">Выбрать</button>
                         </div>
                     </div>
 

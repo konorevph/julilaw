@@ -16,11 +16,11 @@ class Component {
         return isset($json["script"]) ? $json["script"] : "";
     }
 
-    public static function getData(string $name, int $id): array | null
+    public static function getData(string $name, int $id): array
     {
-        if (!file_exists(getenv("ROOTPATH") . self::$dataPath . "$name.json")) return null;
+        if (!file_exists(getenv("ROOTPATH") . self::$dataPath . "$name.json")) return array();
         $json = json_decode(file_get_contents(getenv("ROOTPATH") . self::$dataPath . "$name.json"), true);
-        return isset($json["data"]) && isset($json["data"][$id]) ? $json["data"][$id] : null;
+        return isset($json["data"]) && isset($json["data"][$id]) ? $json["data"][$id] : array();
     }
 
     public static function parseTemplate(string $name, array $data): string {

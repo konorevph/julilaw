@@ -84,14 +84,14 @@ form .selector-options .option:hover {
 .calendar-container {
     display: none;
     width: 100%;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 160px;
     background-color: var(--black-medium-color);
     border-bottom: 1px solid var(--white-color);
     border-left: 1px solid var(--white-color);
     border-right: 1px solid var(--white-color);
     border-radius: 0 0 var(--border-radius) var(--border-radius);
-    padding: 20px;
+    padding: 20px 60px;
     z-index: 100;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -116,7 +116,7 @@ form .selector-options .option:hover {
     background-color: var(--extra-color);
     color: var(--black-color);
     width: 100%;
-    padding: 16px 25px;
+    padding: 8px 25px;
 }
 
 .calendar-header span {
@@ -152,15 +152,15 @@ form .selector-options .option:hover {
 }
 
 .calendar-body>.days>span.active {
-    background-color: var(--extra-color);
-    color: var(--black-color);
+    color: var(--extra-color);
 }
 
 .time-options {
     display: flex;
-    gap: 30px;
+    gap: 90px;
     flex-direction: row;
 }
+
 
 .time-options>li>label {
     display: block;
@@ -182,4 +182,11 @@ input[type=radio] {
 
 label:has(input[type=radio]:checked) {
     color: var(--extra-color);
+}
+
+
+@media screen and (width < 600px) {
+    form {
+        padding: 30px 56px;
+    }
 }
